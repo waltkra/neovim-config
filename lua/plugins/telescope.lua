@@ -45,4 +45,7 @@ return function()
 
 	-- Git
 	vim.keymap.set("n", "gst", builtin.git_status, {})
+
+	--
+	vim.keymap.set("n", "fm", builtin.marks, {})
 end
